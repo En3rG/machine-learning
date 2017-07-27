@@ -4402,77 +4402,100 @@ MzMzswpykmVmZmZmZlZBTrLMzMzMzMwqyEmWmZmZmZlZBf0/RnFAuJ7ATSgAAAAASUVORK5CYII=
 
 </div>
 </div>
-</div>   ('right', 'red', None)
-    -- None : 0.91
-    -- forward : -36.57
-    -- left : -10.33
-    -- right : -17.60
-    optimal answer above should be: right
- 
-   ('right', 'green', None)
-    -- None : -4.95
-    -- forward : 0.65
-    -- left : 0.21
-    -- right : 0.61
-    optimal answer above should be: right
- 
-   ('forward', 'green', 'right')
-    -- None : 0.00
-    -- forward : 0.00
-    -- left : 0.51
-    -- right : 0.10
-    optimal answer above should be: forward
- 
-   ('left', 'green', 'right')
-    -- None : -4.98
-    -- forward : 0.13
-    -- left : 0.80
-    -- right : 0.84
-    optimal answer above should be: None
- 
-   ('left', 'green', 'forward')
-    -- None : -5.83
-    -- forward : 0.00
-    -- left : 2.36
-    -- right : 0.62
-    optimal answer above should be: None
- 
-   ('right', 'green', 'right')
-    -- None : -3.95
-    -- forward : 1.07
-    -- left : 0.40
-    -- right : 0.00
-    optimal answer above should be: right
- 
-   ('right', 'red', 'forward')
-    -- None : 0.76
-    -- forward : -10.35
-    -- left : -9.74
-    -- right : -0.58
-    optimal answer above should be: right
-    
-- It is possible that the smartcab did not see this scenarios enough to learn the optimal policy.  Adding additional trials may solve this issues.- These are some of the optimal policy the smartcab has learned:
-  
-  ('right', 'red', 'right')
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>('right', 'red', None)
+  -- None : 0.91
+  -- forward : -36.57
+  -- left : -10.33
+  -- right : -17.60</p>
+<p>optimal answer above should be: right</p>
+<p>('right', 'green', None)
+  -- None : -4.95
+  -- forward : 0.65
+  -- left : 0.21
+  -- right : 0.61</p>
+<p>optimal answer above should be: right</p>
+<p>('forward', 'green', 'right')
+  -- None : 0.00
+  -- forward : 0.00
+  -- left : 0.51
+  -- right : 0.10</p>
+<p>optimal answer above should be: forward</p>
+<p>('left', 'green', 'right')
+  -- None : -4.98
+  -- forward : 0.13
+  -- left : 0.80
+  -- right : 0.84</p>
+<p>optimal answer above should be: None</p>
+<p>('left', 'green', 'forward')
+  -- None : -5.83
+  -- forward : 0.00
+  -- left : 2.36
+  -- right : 0.62</p>
+<p>optimal answer above should be: None</p>
+<p>('right', 'green', 'right')
+  -- None : -3.95
+  -- forward : 1.07
+  -- left : 0.40
+  -- right : 0.00</p>
+<p>optimal answer above should be: right</p>
+<p>('right', 'red', 'forward')
+  -- None : 0.76
+  -- forward : -10.35
+  -- left : -9.74
+  -- right : -0.58</p>
+<p>optimal answer above should be: right</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>It is possible that the smartcab did not see this scenarios enough to learn the optimal policy.  Adding additional trials may solve this issues.</li>
+</ul>
+<ul>
+<li>Below are some of the optimal policy the smartcab has learned:</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>('right', 'red', 'right')
  -- None : -0.30
  -- forward : -9.20
  -- left : -40.50
- -- right : 1.34
- It is best to take right, even if its red, since the oncoming traffic is going to its right (left relative to smartcab)
- 
- ('right', 'green', None)
+ -- right : 1.34</p>
+<p>It is best to take right, even if its red, since the oncoming traffic is going to its right (left relative to smartcab)</p>
+<p>('right', 'green', None)
  -- None : -4.23
  -- forward : 0.10
  -- left : 0.26
- -- right : 2.71
- It is best to take right, since its green and no oncoming traffic
- 
- ('forward', 'green', None)
+ -- right : 2.71</p>
+<p>It is best to take right, since its green and no oncoming traffic</p>
+<p>('forward', 'green', None)
  -- None : -5.67
  -- forward : 1.33
  -- left : 0.13
- -- right : -0.12
- It is best to go forward, since its green and no oncoming traffic
+ -- right : -0.12</p>
+<p>It is best to go forward, since its green and no oncoming traffic</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
